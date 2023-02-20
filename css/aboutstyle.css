@@ -1,0 +1,33 @@
+
+.aboutBoxs{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 1200px;
+
+}
+
+.person{
+    width: 600px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.person img{
+    width: 100%;
+}
+
+.person h3{
+    font-size: 1.4rem;
+}
+
+.person p{
+    font-size: 1rem;
+   line-height: 1.5rem;
+}
+
+
+.person a{
+    padding-left: 7rem;
+}

@@ -1,0 +1,109 @@
+.my-4{
+    margin-top: 30px;
+}
+
+.resource{
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    justify-content: space-between;
+}
+
+.box1{
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.box2{
+    width: 400px;
+}
+
+
+
+.info{
+width: 100%;
+display: flex;
+flex-direction: column;
+
+text-align: left;
+
+}
+
+.menu1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu1 img{
+    width: 200px;
+}
+.menu1 h3{
+    font-size: 1.3rem;
+}
+
+
+.menu2 h3{
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--four-color);
+    color: var(--four-color);
+    text-align: center;
+}
+
+.list ul{
+list-style: none;
+}
+
+.list ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.list ul li a{
+    color: var(--third-color);
+}
+
+.list ul li a:hover{
+    color: var(--four-color);
+}
+
+.imgBox{
+    width: 100%;
+}
+.info .title{
+    width: 100%;
+    padding: 2rem ;
+    background-color: var(--four-color);
+    color: #fff;
+}
+
+
+.info .title h4{
+    font-size: 1.5rem;
+}
+
+.info .title p{
+    font-size: 1rem;
+}
+
+.info>p{
+    padding: 2rem 0 0 2rem;
+}
+
+.info .button{
+    position: relative;
+    left: 290px;
+}
+
+.info h3{
+    margin-bottom: 10px;
+}
